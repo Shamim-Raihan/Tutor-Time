@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="20dp"
+    android:layout_margin="10dp"
+    >
+    <RelativeLayout
+        android:background="@drawable/item_list_style"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="@drawable/title_circle_style"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/circle_image_view_id"
+            android:layout_width="70dp"
+            android:layout_height="70dp">
+            <TextView
+                android:id="@+id/main_course_title_id"
+                android:gravity="center"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="CH"
+                android:textColor="@color/textColorBlack"
+                android:textSize="30dp"
+                android:textStyle="bold"
+
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/details_layout_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/circle_image_view_id"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:id="@+id/main_course_name_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Course Name"
+                android:textColor="@color/textColorBlack"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/main_class_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Class"
+                android:textColor="@color/textColorBlack"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/main_available_seat_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="available"
+                android:textColor="@color/textColorBlack"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/main_course_fee_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15000 TK"
+                android:textColor="@color/textColorBlack"
+                android:textSize="16dp"
+
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="30dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please read this Message"
+        android:textSize="20sp"
+        android:textColor="#F11616"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact with the course's instructor for payment and course confirmation. Contact information is given in your course details."
+        android:textColor="@color/textColorBlack"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:id="@+id/enrollment_message_ok_button_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/internet_checker_layout_design"
+    android:padding="30dp"
+    >
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/ic_signal_wifi_off"
+        android:layout_gravity="center"
+        android:backgroundTint="#8C7C53"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OOPS!"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#8C7C53"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Internet connection"
+        android:textSize="17dp"
+        android:textColor="#D31515"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please check your connection"
+        android:textSize="12dp"
+        android:textColor="@color/textColorBlack"
+        />
+
+    <Button
+        android:id="@+id/retry_button_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Try Again"
+        android:background="@drawable/try_again_button"
+        android:textColor="@color/textColorBlack"
+        android:layout_marginBottom="20dp"
+
+        />
+
+</LinearLayout>

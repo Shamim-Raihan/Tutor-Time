@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayoutId"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    tools:context=".ui.activity.HomeActivity">
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/header_layout"
+        app:menu="@menu/drawer_layout_menu_items"
+        android:layout_gravity="start"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/secondaryBackgroundColorGreen">
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <FrameLayout
+            android:id="@+id/frameLayoutId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/bottomNavigationId"
+            android:layout_below="@id/toolbarId"
+            />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/secondaryBackgroundColorGreen"
+            app:itemIconTint="@drawable/selector"
+            app:itemRippleColor="@color/black"
+            app:itemTextColor="@drawable/selector"
+            app:menu="@menu/bottom_nav_item">
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+    </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

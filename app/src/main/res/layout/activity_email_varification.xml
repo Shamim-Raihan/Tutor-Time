@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="@drawable/layout_style"
+    tools:context=".ui.activity.EmailVerificationActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your account not verified yet."
+        android:textSize="20sp"
+        android:textColor="#F41313"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/verification_msg_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please verify your email.We sent a verification link in this shamimraihan91@gmail.com"
+        android:textSize="14sp"
+        android:textColor="@color/textColorBlack"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/resend_link_btn_id"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Resend verification link"
+        android:textColor="@color/textColorWhite"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_style"
+        />
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="After verifying : "
+            android:textSize="17sp"
+            android:textColor="@color/textColorBlack"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:id="@+id/navigate_to_log_in_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click Here to log in"
+            android:textSize="17sp"
+            android:textColor="#0434BC"
+            android:textAlignment="center"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "4075685709",
+    "project_id": "tutortime-33eb7",
+    "storage_bucket": "tutortime-33eb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4075685709:android:763ac77a94dff46ead5904",
+        "android_client_info": {
+          "package_name": "com.atia.tutortime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4075685709-ls4d22lpokk43ruprgv4m2fjon8urucj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlvUgx13BnvWgE-IGjJbt7GmBgSKtHnwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4075685709-ls4d22lpokk43ruprgv4m2fjon8urucj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.RequestCourseDetailsActivity">
+
+
+    <LinearLayout
+        android:background="@color/secondaryBackgroundColorGreen"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <TextView
+            android:id="@+id/request_course_name_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Physics"
+            android:textColor="@color/textColorWhite"
+            android:textSize="40sp"
+            />
+
+        <TextView
+            android:id="@+id/request_course_teacher_name_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shamim Raihan"
+            android:textColor="@color/textColorWhite"
+            android:textSize="20sp"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="#B4C9D6"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Instructor Contact        :   "
+                android:textColor="@color/textColorBlack"
+                android:textSize="17sp"
+                />
+            <TextView
+                android:id="@+id/request_course_teacher_contact_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01791835127"
+                android:textColor="@color/textColorBlack"
+                android:textSize="17sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Seat                   :   "
+                android:textColor="@color/textColorBlack"
+                android:textSize="17sp"
+                />
+            <TextView
+                android:id="@+id/request_total_seat_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25"
+                android:textColor="@color/textColorBlack"
+                android:textSize="17sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Available Seat          :   "
+                android:textColor="@color/textColorBlack"
+                android:textSize="17sp"
+                />
+            <TextView
+                android:id="@+id/request_available_seat_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12"
+                android:textColor="@color/textColorBlack"
+                android:textSize="17sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start From                :   "
+                android:textColor="@color/textColorBlack"
+                android:textSize="17sp"
+                />
+            <TextView
+                android:id="@+id/request_start_time_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01:00:AM"
+                android:textColor="@color/textColorBlack"
+                android:textSize="17sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="End Time                 :   "
+                android:textColor="@color/textColorBlack"
+                android:textSize="17sp"
+                />
+            <TextView
+                android:id="@+id/request_end_time_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="02:00:AM"
+                android:textColor="@color/textColorBlack"
+                android:textSize="17sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Class                         :   "
+                android:textColor="@color/textColorBlack"
+                android:textSize="17sp"
+                />
+            <TextView
+                android:id="@+id/request_class_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:textColor="@color/textColorBlack"
+                android:textSize="17sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Course Media         :   "
+                android:textColor="@color/textColorBlack"
+                android:textSize="17sp"
+                />
+            <TextView
+                android:id="@+id/request_media_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Online"
+                android:textColor="@color/textColorBlack"
+                android:textSize="17sp"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:padding="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status         :   "
+                android:textColor="@color/textColorBlack"
+                android:textSize="17sp"
+                />
+            <TextView
+                android:id="@+id/request_status_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pending"
+                android:textColor="#FA1111"
+                android:textSize="17sp"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
